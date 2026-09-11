@@ -1,41 +1,15 @@
-# task-board-dev
+# Developer deliverables
 
-Developer submissions for the Redbelly DAO Community Task Board.
+Public archive index for developer tasks on the Redbelly DAO Community Task Board.
 
-**Tasks covered:** 1 (Sybil-Proof ERC-20), 2 (CAT Vault), 3 (Dividend Automation), 4 (Credential Expiry Monitor), 10 (Network Dashboard), 13 (Zero-to-Hero Onboarding Kit)
+| Task | Repository | Credit |
+| --- | --- | --- |
+| TASK-01 | [Sybil-Proof ERC-20](https://github.com/Redbelly-DAO-Community-Taskboard/TASK-01-sybil-proof-erc20) | 1F592 |
+| TASK-02 | [CAT Vault](https://github.com/Redbelly-DAO-Community-Taskboard/TASK-02-cat-vault) | 1F592 |
+| TASK-03 | [KYC Dividend Token](https://github.com/Redbelly-DAO-Community-Taskboard/TASK-03-kyc-dividend-token) | ankurghai |
+| TASK-04 | [Credential Expiry Monitor](https://github.com/Redbelly-DAO-Community-Taskboard/TASK-04-credential-expiry-monitor) | 1F592 |
+| TASK-10 | [Network Dashboard](https://github.com/Redbelly-DAO-Community-Taskboard/TASK-10-network-dashboard) | Rahmandefi |
+| TASK-25 | [Proposal Screener](https://github.com/Redbelly-DAO-Community-Taskboard/TASK-25-proposal-screener) | Rahmandefi |
 
----
+Each repository includes NOTICE.md with archive and assignment details.
 
-## Before You Submit
-
-1. Read the full task specification in the [Expanded Task Specifications document](#)
-2. Set up your environment using the [Testnet Setup Guide](../resources/testnet-guide/TESTNET_SETUP.md)
-3. Start from the [Hardhat Starter](../resources/hardhat-starter/) and [EligibilitySDK Boilerplate](../resources/eligibility-sdk-boilerplate/)
-4. Confirm the eligibility contract address with the Redbelly core team before deployment
-
-## Submission Requirements
-
-All developer submissions must include:
-
-- Smart contract source code (Solidity ^0.8.20)
-- Deployment scripts targeting Redbelly Testnet (Chain ID 153)
-- Test suite with minimum 90% coverage
-- Testnet deployment proof (contract address + transaction hash)
-- Documentation matching the page requirements in the task spec
-
-## How to Submit
-
-1. Build your deliverable in your own public GitHub repository
-2. Open a Pull Request in this repo using the **Developer Submission** template
-3. A technical reviewer will be assigned within 48 hours
-4. You have one revision opportunity if feedback is returned
-5. Upon approval, payment is processed within 24 hours
-
-## Review Criteria
-
-Reviewers evaluate against the Quality Benchmarks and Failure Criteria defined in each task specification. A submission fails if:
-
-- Contract allows actions by unverified wallets
-- Test coverage is below 90%
-- Deployment scripts do not work on the current testnet
-- Documentation is missing or contains broken code
